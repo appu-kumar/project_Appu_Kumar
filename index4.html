@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <!-- Task 4: Create a Registration form that takes input Name, Email, Gender, Country, and address and has a submit and a reset button -->
+    <!--Forms are a fundamental part of web development, 
+        facilitating user interaction and data exchange between clients and servers. 
+        They are often used in combination with server-side technologies to handle form submissions and process the data on the server.-->
+        
+    <!--Input Types: The <input> element is used for various types of user input. Common type attributes include:
+
+            text: Single-line text input.
+            password: Password input.
+            checkbox: Checkbox for binary choices.
+            radio: Radio button for mutually exclusive choices.
+            submit: Button to submit the form.
+            reset: Button to reset the form.
+            file: File input for file uploads.
+-->
+
+    <form action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+        <!-- 
+        <label for="file">Choose a File:</label>
+        <input type="file" id="file" name="country" required><br> -->
+
+        <input type="submit" value="submit"><br>
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+
+</html>
