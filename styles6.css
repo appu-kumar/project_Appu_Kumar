@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card{
+    width:700px;
+    height:50%; 
+}
+.top{
+    margin:-4px;
+}
+
+.top img{
+   width:363px;
+}
+
+ .bottom{
+    width:50%;
+    height:50%;
+    background-color: rgb(3, 3, 49);
+    color:rgba(235, 223, 223, 0.934);
+    padding:5px;
+    margin:0;
+}
+
+.bottom  ul li{
+    list-style:none;
+    margin:2px;
+    padding:2px;
+}
+
+.bottom .icons ul{
+    display:flex;
+    align-items:center;
+}
+
+.icons ul li img{
+    width:40px;
+}
+
